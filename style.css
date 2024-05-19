@@ -1,0 +1,28 @@
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: rgb(133, 40, 24);
+}
+.navbar{
+  display: block;
+  background-color: green;
+  height: 3em;
+}
+.navbar a{
+  font-size: 25px;
+  float: left;
+  display: block;
+  align-items: center;
+  text-align: center;
+  color: rgb(255,255,255);
+  padding-left: 20px;
+  text-decoration: none;
+}
+.navbar a:hover{
+  background-color: black;
+  color: red;
+  height: fit-content;
+  width: fit-content;
+  font-size: 30px;
+  padding: 7px;
+}
+
